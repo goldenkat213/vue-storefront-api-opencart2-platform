@@ -1,17 +1,17 @@
-# OpenCart2 Vue Storefront API Platform
+# OpenCart3 Vue Storefront API Platform
 
-This package is a Vue Storefront API platform that enables Vue Storefront to communicate with the OpenCart by acting as a proxy to the PHP OpenCart VS Bridge on your server.
+This package is a Vue Storefront API platform that enables Vue Storefront to communicate with the OpenCart3 by acting as a proxy to the PHP OpenCart VS Bridge on the server.
 
-Based on https://github.com/DivanteLtd/magento1-vsbridge-client and modified to work with OpenCart.
+Based on https://github.com/DivanteLtd/magento1-vsbridge-client and i am now modifying to fit Oc3.
 
-This module is built for the [Vue Storefront - first Progressive Web App for eCommerce](https://github.com/DivanteLtd/vue-storefront).
+This module is built for the [Vue Storefront - first Progressive Web App for eCommerce](https://github.com/goldenkat213/vue-storefront).
 
 ## Installation
 
 * Add the repository contents into the `Vue Storefront API` / `src` / `platform` / `opencart2` by importing it as a git submodule:
 
 ```shell script
-git submodule add git@github.com:butopea/vue-storefront-api-opencart2-platform.git src/platform/opencart2
+git add git@github.com:glodenkat213/vue-storefront-api-opencart3-platform.git src/platform/opencart3
 ```
 
 * Add the following to your Vue Storefront API config file (`config` / `local.json`)
@@ -32,12 +32,12 @@ git submodule add git@github.com:butopea/vue-storefront-api-opencart2-platform.g
   }
 ...
 ```
-* Set the `platform` option in your config to `opencart2`
+* Set the `platform` option in your config to `opencart3`
 
 ```json
 ...
-"platform": "opencart2",
+"platform": "opencart3",
 ...
 ```
 # Requirements
-Requires the [Vue Storefront Connector Extension for OpenCart](https://github.com/butopea/vue-storefront-opencart-vsbridge) to function.
+Requires the [Vue Storefront Connector Extension for OpenCart](https://github.com/goldenkat213/vue-storefront-opencart-vsbridge) to function.
